@@ -1,0 +1,80 @@
+<html>
+<head>
+ <title>K-Voting_Official_Web</title>
+ <link href="css/demo.css" rel="stylesheet" type="text/css" />
+ <link rel="stylesheet" href="jqbar.css" />
+ <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
+ <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+ <!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+ <a href="file:///C:/sol/index.html#">
+ <div class="imag">
+        <div style="float:left; margin-left: 10px;">
+        <img src="moon.jpg" alt="My Image" ></a>
+        <h2>득표수</h2>
+        <h2 id="candidate-1"></h2>
+        </div>
+
+        <div style=" float:right">
+            <img src="hong.jpg" alt="My Image" ></a>
+            <h2>득표수</h2>
+            <h2 id="candidate-2"></h2>
+        </div>
+
+
+</div>
+
+
+<div class="graf">
+<div  >
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <canvas id="bar-chart" width="1000" height="800" ></canvas>
+    </div>
+</div>
+                            
+<div class="bars">
+	<div id="bar-7"></div>
+	<div id="bar-8"></div>
+	<div id="bar-9"></div>
+	<div id="bar-10"></div>
+	<div id="bar-11"></div>
+	<div id="bar-12"></div>
+</div>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jqbar.js" type="text/javascript"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function () {
+		$('#bar-7').jqbar({ label: 'Wal', value: 90, barColor: '#D64747', orientation: 'v' });
+		$('#bar-8').jqbar({ label: 'Ohi', barColor: '#FF681F', value: 70, orientation: 'v' });
+		$('#bar-9').jqbar({ label: 'Song', barColor: '#ea805c', value: 50, orientation: 'v' });
+		$('#bar-10').jqbar({ label: 'Pisho', barColor: '#88bbc8', value: 90, orientation: 'v' });
+		$('#bar-11').jqbar({ label: 'Mara', barColor: '#939393', value: 70, orientation: 'v' });
+		$('#bar-12').jqbar({ label: 'Dagha', barColor: '#3a89c9', value: 50, orientation: 'v' });
+	});
+</script>
+                                    
+ 
+
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
